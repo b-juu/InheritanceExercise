@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    internal class Animal
-    {
+     class Animal
+    {              
+            public string Name { get; set; }
+            public int Age { get; set; }
+            public string Habitat { get; set; }
+            public bool IsPredator { get; set; }      
     }
+   
 }

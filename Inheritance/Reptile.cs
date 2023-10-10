@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    internal class Reptile
+    class Reptile : Animal
     {
+        public bool IsColdBlooded { get; set; }
+        public bool HasScales { get; set; }
+        public bool CanRegenerate { get; set; }
+        public bool LaysEggs { get; set; }
     }
 }
